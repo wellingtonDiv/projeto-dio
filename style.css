@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto+Slab:wght@100&display=swap');
+* {
+ 
+  box-sizing: border-box;
+
+}
+
+body{background: black;}
+
+p{
+    color: white;
+    font-family: Roboto Slab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+ 
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../trilha-css-desafio-01-main/assets/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+  }
+  
+
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+
+h1{
+    color: aliceblue;
+    font-family: Raleway;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px; /* Largura do botão */
+    height: 45px;/*altura do botao*/
+    margin-left: auto; /* Margem esquerda automática */
+    margin-right: auto; /* Margem direita automática */
+  }
+  
+
+  button{
+    color: rgb(2, 19, 209);
+    font-family:Raleway b;
+    font-size: 20px;
+    border: solid lightskyblue;
+  }
+
+
+
+
+  h2{
+    color: rgb(85, 144, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    
+    
+  }
+  
+
+  span {
+    color:rgba(51, 168, 219, 1)
+    
+  }
+.module{
+    color: rgb(255, 255, 255, 1);
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color:#252525;
+    padding: 16px;
+    border-radius: 100px ;
+    box-shadow: inset -5px 6px rgba(0, 0, 0, .7);
+}
+
+
+
+.modules-list{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.p2{
+    font-size: 14px;
+}
+
+
+
+
+
+#professional-challenges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Raleway ;
+    ;
+  
+}
+
+  
+footer a {
+    color: #33A8DB; font-weight: bold;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+    text-decoration: none;
+  }
+  
+  footer .dio-logo {
+    width: 300px;
+  }
+  
+  footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
